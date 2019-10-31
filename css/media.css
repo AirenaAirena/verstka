@@ -1,0 +1,134 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.btn-red{
+		margin-top: 20px;
+	}
+	.owl-carousel .carousel-client a img{
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.nav li{
+		padding-left: 20px;
+	}
+	.header{
+		margin-top: 20px;
+	}
+	.portfolio-item-content a.btn{
+		padding: 7px;
+		line-height: 16px;
+	}
+	.btn-form{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.contact .form-info{
+		display: block;
+		text-align: center;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	.header-wrap h1{
+		font-size: 42px;
+	}
+	.header-wrap{
+		padding-top: 90px;
+	}
+	.main-head{
+		min-height: 600px;
+	}
+	.services .item-vertical img{
+		margin-top: 30px;
+	}
+	.services .section-header p{
+		margin-bottom: 45px;
+	}
+	.section-header h2::after{
+		left: 45%;
+	}
+	.portfolio-item-content a.btn{
+		padding: 10px 20px;
+		line-height: 24px;
+	}
+	.owl-carousel .carousel-client a img{
+		margin-top: 15px;
+	}
+	.contact .form-info{
+		margin-left: 20px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.header-wrap h1{
+		font-size: 25px;
+	}
+
+	.blog .header h3{
+		font-size: 13px;
+		margin-top: 10px;
+	}
+	.calworks h3{
+		font-size: 20px;
+	}
+	
+	.form-col{
+		width: 100%;
+	}
+	.form-col+.form-col{
+		margin-top: 20px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	.blog .header h3{
+		font-size: 13px;
+		margin-top: 10px;
+	}
+	p{
+		font-size: 16px;
+	}
+	.section-header h2::after {
+		left: 40%;
+	}
+.owl-carousel .carousel-client a img {
+    margin-top: 40px;
+}
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px) {
+
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}

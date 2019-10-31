@@ -1,0 +1,18 @@
+	/* font-family: "RobotoSlabRegular"; */
+@font-face {
+	font-family: "RobotoSlabRegular";
+	src: url("../fonts/RobotoSlab/RobotoSlabRegular.eot"),url("../fonts/RobotoSlab/RobotoSlabRegular.woff") format("woff"),	url("../fonts/RobotoSlab/RobotoSlabRegular.ttf") format("truetype");
+	src: url("../fonts/RobotoSlab/RobotoSlabRegular.eot?#iefix")format("embedded-opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+	/* font-family: "RobotoSlabBold"; */
+@font-face {
+	font-family: "RobotoSlabBold";
+	src: url("../fonts/RobotoSlab/RobotoSlabBold.eot");
+	src: url("../fonts/RobotoSlab/RobotoSlabBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoSlab/RobotoSlabBold.woff") format("woff"),
+	url("../fonts/RobotoSlab/RobotoSlabBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 700;
+}
